@@ -13,7 +13,7 @@ console.log(faveNum)
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 let lovesCode = true
-
+console.log(lovesCode)
 //////////////////PROBLEM 4////////////////////
 /*
   Write an if-statement that checks if the faveNum variable is 
@@ -21,7 +21,11 @@ let lovesCode = true
   If it's not, console.log('not lucky 13').
 */
 
-//CODE HERE
+if (faveNum === 13){
+  console.log('Lucky number 13!')
+} else {
+  console.log('not lucky 13')
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
