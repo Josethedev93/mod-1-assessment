@@ -22,7 +22,8 @@ console.log(colorCopy)
 
 const numbers = [1, 2, 3, 4, 5]
 
-//CODE HERE
+var middleNums = numbers.splice(1, 3)
+console.log(middleNums)
 
 
 //////////////////PROBLEM 4////////////////////
