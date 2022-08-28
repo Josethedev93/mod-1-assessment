@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = 'Git is a local library of your files and you can search/edit/and push your files to different apps'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = 'Git Hub is a library of all the files/codes for you to keep safely without worry of it being lost if deleted also to show projects being worked on '
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+let gitInitDefinition = 'Git init, initializes a local repository on your computer file selected through git'
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+let gitCloneDefinition = 'Git clone is used to look at an exisiting repo and copy or clone it and move it to a new location'
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+let gitStatusDefinition = 'Git status lets you see the state of the directory you are in and the staging of it'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,9 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+let gitAddDefinition = 'Git add will stage all selected files and have them ready for commit'
+
+let gitAddCode = 'git add .'
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,7 +65,9 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+let gitCommitDefinition = 'Git commit is like a snapshot of that point in time'
+
+let gitCommitCode = 'git initial commit -am'
 
 
 //////////////////PROBLEM 8////////////////////
@@ -72,4 +76,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+let gitPushDefinition = 'Git push will push your new commit files to your selected repo'
